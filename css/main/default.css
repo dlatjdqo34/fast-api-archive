@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2C3E50; /* Dark Slate Gray */
+    color: #ecf0f1; /* Clouds */
+}
+
+#top-banner {
+    background-color: #E74C3C; /* Alizarin Crimson */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#login-button {
+    float: right;
+    margin: 10px;
+    padding: 8px 15px;
+    background-color: #3498db; /* Dodger Blue */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#menu-bar {
+    background-color: #34495e; /* Wet Asphalt */
+    overflow: hidden;
+}
+
+#menu-bar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu-bar a:hover {
+    background-color: #2C3E50; /* Dark Slate Gray */
+}
+
+#main-body {
+    padding: 20px;
+}
+
+#footer {
+    background-color: #7f8c8d; /* Silver */
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

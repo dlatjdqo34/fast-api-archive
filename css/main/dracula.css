@@ -1,0 +1,57 @@
+body {
+    font-family: 'Fira Code', monospace; /* Use a monospaced font for a code-like feel */
+    margin: 0;
+    padding: 0;
+    background-color: #282a36; /* Dracula Background */
+    color: #f8f8f2; /* Dracula Foreground */
+}
+
+#top-banner {
+    background-color: #44475a; /* Dracula Current Line */
+    color: #f8f8f2;
+    padding: 10px;
+    text-align: center;
+}
+
+#login-button {
+    float: right;
+    margin: 10px;
+    padding: 8px 15px;
+    background-color: #6272a4; /* Dracula Comment */
+    color: #f8f8f2;
+    border: none;
+    cursor: pointer;
+}
+
+#menu-bar {
+    background-color: #282a36;
+    overflow: hidden;
+}
+
+#menu-bar a {
+    float: left;
+    display: block;
+    color: #f8f8f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu-bar a:hover {
+    background-color: #44475a;
+}
+
+#main-body {
+    padding: 20px;
+}
+
+#footer {
+    background-color: #282a36;
+    color: #6272a4; /* Dracula String */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
